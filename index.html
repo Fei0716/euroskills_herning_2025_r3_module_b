@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    add meta tags-->
+    <meta name="description"
+        content="Streamline operations, enhance customer service, and boost your profits with our comprehensive management software.">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>DineEase</title>
+
+    <!--    import roboto font face from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="roboto.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--    header section-->
+    <header>
+        <nav role="navigation" class="navbar">
+            <ul class="navbar-nav">
+                <li>
+                    <a href="index.html">
+                        <img src="./images/logo@2x.png" class="img-logo" alt="DineEase's Logo">
+                    </a>
+                </li>
+                <li><a href="#overview-section" class="active">Overview</a></li>
+                <li><a href="#feature-section">Features</a></li>
+                <li><a href="#about-section">About Us</a></li>
+                <li><a href="#pricing-section">Pricing</a></li>
+            </ul>
+            <button class="btn-primary btn-book">Book a Demo</button>
+        </nav>
+        <nav class="sticky-nav" hidden>
+            <ul class="navbar-nav">
+                <li><img src="./images/logo@2x.png" class="img-logo" alt="DineEase's Logo"></li>
+                <li><a href="#overview-section" class="active">Overview</a></li>
+                <li><a href="#feature-section">Features</a></li>
+                <li><a href="#about-section">About Us</a></li>
+                <li><a href="#pricing-section">Pricing</a></li>
+            </ul>
+            <button class="btn-primary btn-book">Book a Demo</button>
+        </nav>
+    </header>
+
+    <main role="main">
+        <section aria-label="Hero Section">
+            <div id="hero-wrapper" class="container">
+                <article class="hero-text">
+                    <h1 class="mb-2 roboto-regular">Elevate Your Restaurant with<br><span
+                            class="text-primary roboto-black">DineEase</span></h1>
+                    <p class="roboto-light mb-3">Streamline operations, enhance customer service, and boost your profits
+                        with our comprehensive management software.</p>
+
+                    <button class="btn-primary btn-book">&phone; Book a Free Demo</button>
+                </article>
+                <img src="./images/hero@2x.png" id="img-hero" alt="Mockup Image of DineEase App">
+
+            </div>
+        </section>
+
+        <section id="overview-section" aria-label="Overview Section">
+            <div id="overview-wrapper" class="container">
+                <h2 class="roboto-bold mb-1 text-center">DineEase by the Numbers</h2>
+                <div class="roboto-light text-center mb-2">Our achievement in the journey depicted in numbers</div>
+
+                <div id="number-cards">
+                    <article class="number-card">
+                        <div>
+                            <span class="number-value" data-number="2531">0</span>+
+                        </div>
+
+                        <div class="roboto-light">Customers</div>
+                    </article>
+                    <article class="number-card">
+                        <div>
+                            <span class="number-value" data-number="1235764">0</span>
+                        </div>
+
+                        <div class="roboto-light">Transactions monthly</div>
+                    </article>
+                    <article class="number-card">
+                        <div>
+                            <span class="number-value" data-number="98">0</span>%
+                        </div>
+                        <div class="roboto-light">Customer Satisfaction</div>
+                    </article>
+                    <article class="number-card">
+                        <div>
+                            <span class="number-value" data-number="25">0</span>+
+                        </div>
+                        <div class="roboto-light">Awards Won</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="feature-section" aria-label="Feature Section" class="container">
+            <h1 class="mb-3">Powerful Features Designed for Efficiency</h1>
+            <div id="features-wrapper">
+                <article class="feature">
+                    <img class="mb-1" src="./images/feature1@2x.png" alt="Feature Icon 1">
+                    <h3>Inventory Management</h3>
+                    <p class="mb-1">Reduce waste with precise tracking and predictive ordering.</p>
+                    <a href="">Know more &rightarrow;</a>
+                </article>
+                <article class="feature">
+                    <img class="mb-1" src="./images/feature2@2x.png" alt="Feature Icon 2">
+                    <h3>Real-Time Analytics</h3>
+                    <p class="mb-1">Make informed decisions with up-to-the-minute data on sales, staffing, and customer
+                        preferences.
+                    </p>
+                    <a href="">Know more &rightarrow;</a>
+                </article>
+                <article class="feature">
+                    <img class="mb-1" src="./images/feature3@2x.png" alt="Feature Icon 3">
+                    <h3>CRM</h3>
+                    <p class="mb-1">Enhance guest experiences through personalized service and targeted marketing.
+                    </p>
+                    <a href="">Know more &rightarrow;</a>
+                </article>
+            </div>
+        </section>
+
+        <!--        about section-->
+        <section id="about-section" aria-label="About Us Section">
+            <div id="about-wrapper" class="container">
+                <h1 class="mb-3">Trusted by Restaurants Worldwide</h1>
+                <div id="testimonials-wrapper">
+                    <article class="testimonial">
+                        <p>DineEase helped us reduce operational costs by 20% within the first six months.</p>
+                        <div>
+                            <strong>Jane Cooper</strong>
+                            <div class="roboto-light">The Gourmet Bistro</div>
+                        </div>
+                    </article>
+                    <article class="testimonial">
+                        <p>DineEase revolutionized our operations, making it easy to manage multiple locations
+                            seamlessly. Their support team is incredibly responsive and truly understands the needs of
+                            the hospitality industry.</p>
+                        <div>
+                            <strong>Floyd Miles</strong>
+                            <div class="roboto-light">OceanView Cafe</div>
+                        </div>
+                    </article>
+                    <article class="testimonial">
+                        <p>Our customer satisfaction has never been higher, thanks to the personalized service we can
+                            provide with DineEase.</p>
+                        <div>
+                            <strong>Kristin Watson</strong>
+                            <div class="roboto-light">City Diner</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--        pricing section-->
+
+        <section id="pricing-section" aria-label="Pricing Section" class="container">
+            <h1 class="mb-2 text-center">Flexible Pricing Plans</h1>
+            <div class="roboto-light text-center mb-3">Choose the plan that best fits your business. No hidden fees, no
+                surprises.</div>
+            <div id="pricing-wrapper">
+                <article class="price-card">
+                    <div class="price-card-header">
+                        <strong class="text-center d-block mb-2">STARTER</strong>
+                        <div class="price-tag mb-2">$ <span class="roboto-black">19</span> per month</div>
+                        <p>Ideal for new or small restaurants looking to streamline operations.</p>
+                    </div>
+                    <div class="price-card-body">
+                        <ul>
+                            <li><span>&check;</span>Real-time sales tracking</li>
+                            <li><span>&check;</span>Basic inventory management</li>
+                            <li class="disabled"><span>&check;</span>Priority phone support</li>
+                            <li class="disabled"><span>&check;</span>Multi-location management</li>
+                        </ul>
+                    </div>
+                    <div class="price-card-footer">
+                        <button class="btn-round-secondary">Start Free Trial</button>
+                    </div>
+                </article>
+                <article class="price-card">
+                    <div class="price-card-header price-card-highlight">
+                        <strong class="text-center d-block mb-2">PROFESSIONAL</strong>
+                        <div class="price-tag mb-2">$ <span class="roboto-black">49</span> per month</div>
+                        <p>Perfect for growing restaurants needing advanced analytics and marketing tools.</p>
+                    </div>
+                    <div class="price-card-body">
+                        <ul>
+                            <li><span>&check;</span>Real-time sales tracking</li>
+                            <li><span>&check;</span>Advanced inventory management</li>
+                            <li><span>&check;</span>Priority phone support</li>
+                            <li class="disabled"><span>&check;</span>Multi-location management</li>
+                        </ul>
+                    </div>
+                    <div class="price-card-footer">
+                        <button class="btn-round-primary roboto-black" data-start-trial="Start Free Trial">Start Free
+                            Trial</button>
+                    </div>
+                </article>
+                <article class="price-card">
+                    <div class="price-card-header">
+                        <strong class="text-center d-block mb-2">ENTERPRISE</strong>
+                        <div class="price-tag mb-2">$ <span class="roboto-black">99</span> per month</div>
+                        <p>Comprehensive solutions for large-scale or multi-location operations.</p>
+                    </div>
+                    <div class="price-card-body">
+                        <ul>
+                            <li><span>&check;</span>Real-time sales tracking</li>
+                            <li><span>&check;</span>Advanced inventory management</li>
+                            <li><span>&check;</span>Priority phone support</li>
+                            <li><span>&check;</span>Multi-location management</li>
+                        </ul>
+                    </div>
+                    <div class="price-card-footer">
+                        <button class="btn-round-secondary" data="Start Free Trial">Start Free Trial</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo" aria-label="Footer Section">
+        <article class="container">
+            <div>
+                <img src="./images/logo@2x.png" alt="Logo of DineEase">
+                <div>
+                    <a href="">Terms of Use</a>
+                    <a href="">Privacy Policy</a>
+                </div>
+                <div>
+                    <div>+36 30 123 4567</div>
+                    <div>
+                        support@dineease.com
+                    </div>
+                </div>
+
+                <div>
+                    © 2024 - All rights reserved
+                </div>
+            </div>
+
+            <div id="social-wrapper">
+                <div>Follow Us</div>
+                <div id="social-links">
+                    <a href="">
+                        <img src="./images/facebook.png" alt="Click to visit Our Facebook Page">
+                    </a>
+                    <a href="">
+                        <img src="./images/instagram.png" alt="Click to visit Our Instagram Page">
+                    </a>
+                </div>
+            </div>
+        </article>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

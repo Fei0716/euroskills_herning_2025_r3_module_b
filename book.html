@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    add meta tags-->
+    <meta name="description" content="Streamline operations, enhance customer service, and boost your profits with our comprehensive management software.">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>DineEase</title>
+
+    <!--    import roboto font face from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="roboto.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--    header section-->
+<header>
+    <nav role="navigation" class="navbar">
+        <ul class="navbar-nav">
+            <li>
+            <a href="index.html">
+                <img src="./images/logo@2x.png" class="img-logo" alt="DineEase's Logo">
+            </a>
+            </li>
+            <li><a href="#overview-section">Overview</a></li>
+            <li><a href="#feature-section">Features</a></li>
+            <li><a href="#about-section">About Us</a></li>
+            <li><a href="#pricing-section">Pricing</a></li>
+        </ul>
+        <button class="btn-primary btn-book">Book a Demo</button>
+    </nav>
+    <nav class="sticky-nav" hidden>
+        <ul class="navbar-nav">
+            <li><img src="./images/logo@2x.png" class="img-logo" alt="DineEase's Logo"></li>
+            <li><a href="#overview-section" class="active">Overview</a></li>
+            <li><a href="#feature-section">Features</a></li>
+            <li><a href="#about-section">About Us</a></li>
+            <li><a href="#pricing-section">Pricing</a></li>
+        </ul>
+        <button class="btn-primary btn-book">Book a Demo</button>
+    </nav>
+</header>
+
+<main role="main">
+    <section aria-label="Booking Section" class="container" id="booking-section">
+        <h1 class="mb-3 roboto-light text-center">Book A Free <span class="roboto-black">Demo</span></h1>
+
+        <form action="#" id="form-booking">
+            <div id="book-datetime">
+                <div class="mb-2">
+                    <label for="date" class="form-label">Date</label>
+<!--                    <input type="date" name="date" id="date" class="form-control">-->
+                    <div id="date-wrapper">
+                        <input type="text" name="date" id="date" class="form-control" readonly>
+                        <div id="calendar">
+                            <div id="calendar-nav">
+                                <div id="nav-left">&lt;</div>
+                                <strong id="current-month-year">July 2024</strong>
+                                <div id="nav-right">&gt;</div>
+                            </div>
+                            <table>
+                                <thead>
+                                    <tr id="calendar-day">
+                                    </tr>
+                                </thead>
+                                <tbody id="calendar-date">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id="time" hidden>
+                    <div class="form-label" aria-label="Time">Time</div>
+                    <label for="time-1" class="label-time">12:00</label>
+                    <input type="radio" name="time" id="time-1" value="12:00" checked hidden>
+
+                    <label for="time-2" class="label-time">12:30</label>
+                    <input type="radio" name="time" id="time-2" value="12:30" hidden>
+
+                    <label for="time-3" class="label-time">13:30</label>
+                    <input type="radio" name="time" id="time-3" value="13:30" hidden>
+
+                    <label for="time-4" class="label-time">14:00</label>
+                    <input type="radio" name="time" id="time-4" value="14:00" hidden>
+
+                    <label for="time-5" class="label-time">14:30</label>
+                    <input type="radio" name="time" id="time-5" value="14:30" hidden>
+                </div>
+            </div>
+            <div id="book-detail">
+                <div class="mb-2">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-control">
+                </div>
+                <div class="mb-2">
+                    <label for="phone" class="form-label">Phone number</label>
+                    <input type="text" id="phone" name="phone" class="form-control">
+                </div>
+                <div class="mb-2">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+
+                <button type="submit" class="btn-submit">Book Demo</button>
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer role="contentinfo" aria-label="Footer Section" >
+    <article class="container">
+        <div>
+            <img src="./images/logo@2x.png" alt="Logo of DineEase">
+            <div>
+                <a href="">Terms of Use</a>
+                <a href="">Privacy Policy</a>
+            </div>
+            <div>
+                <div>+36 30 123 4567</div>
+                <div>
+                    support@dineease.com
+                </div>
+            </div>
+
+            <div>
+                © 2024 - All rights reserved
+            </div>
+        </div>
+
+        <div id="social-wrapper">
+            <div>Follow Us</div>
+            <div id="social-links">
+                <a href="">
+                    <img src="./images/facebook.png" alt="Click to visit Our Facebook Page">
+                </a>
+                <a href="">
+                    <img src="./images/instagram.png" alt="Click to visit Our Instagram Page">
+                </a>
+            </div>
+        </div>
+    </article>
+
+</footer>
+
+<script src="book.js"></script>
+</body>
+</html>
